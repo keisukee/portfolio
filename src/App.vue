@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <p>ddddddddd</p>
-    <about></about>
-    <works></works>
-    <skills></skills>
-    <sns></sns>
-    <contact></contact>
+    <top></top>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import top from './components/top.vue'
 import about from './components/about.vue'
 import works from './components/works.vue'
 import skills from './components/skills.vue'
@@ -22,7 +16,7 @@ import contact from './components/contact.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    top,
     about,
     works,
     skills,
