@@ -8,6 +8,7 @@
 <script>
 import top from './components/top.vue'
 import about from './components/about.vue'
+import experiences from './components/experiences.vue'
 import works from './components/works.vue'
 import skills from './components/skills.vue'
 import sns from './components/sns.vue'

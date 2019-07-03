@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import top from '@/components/top'
 import about from '@/components/about'
+import experiences from '@/components/experiences'
 import works from '@/components/works'
 import skills from '@/components/skills'
 import sns from '@/components/sns'
@@ -20,6 +21,10 @@ export default new Router({
     {
       path: '/about',
       component: about
+    },
+    {
+      path: '/experiences',
+      component: experiences
     },
     {
       path: '/works',
