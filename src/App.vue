@@ -19,6 +19,7 @@ export default {
   components: {
     top,
     about,
+    experiences,
     works,
     skills,
     sns,

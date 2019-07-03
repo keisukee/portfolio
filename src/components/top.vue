@@ -8,12 +8,12 @@
       </p>
     </div>
     <nav>
-      <router-link to="/about">go to about</router-link><br>
-      <router-link to="/experiences">go to experiences</router-link><br>
-      <router-link to="/works">go to works</router-link><br>
-      <router-link to="/skills">go to skills</router-link><br>
-      <router-link to="/sns">go to sns</router-link><br>
-      <router-link to="/contact">go to contact</router-link>
+      <router-link to="/about">About</router-link><br>
+      <router-link to="/experiences">Experiences</router-link><br>
+      <router-link to="/works">Works</router-link><br>
+      <router-link to="/skills">Skills</router-link><br>
+      <router-link to="/sns">SNS</router-link><br>
+      <router-link to="/contact">Contact</router-link>
     </nav>
   </div>
 </template>
@@ -21,5 +21,5 @@
 <script>
 </script>
 
-<style>
+<style lang="sass">
 </style>

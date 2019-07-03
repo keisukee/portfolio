@@ -20,24 +20,34 @@
 <script>
 </script>
 
-<style>
-table{
-  display: flex;
-}
-thead{
-  display: flex;
-  flex-direction: column;
-
-}
-thead tr{
-  display: flex;
-  flex-direction: column;
-}
-tbody{
-  display: flex;
-}
-tbody tr{
-  display: flex;
-  flex-direction: column;
-}
+<style lang="sass">
+  table
+    display: -webkit-flex
+    display: -ms-flex
+    display: flex
+    thead
+      display: -webkit-flex
+      display: -ms-flex
+      display: flex
+      -webkit-flex-direction: column
+      -ms-flex-direction: column
+      flex-direction: column
+      tr
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        -webkit-flex-direction: column
+        -ms-flex-direction: column
+        flex-direction: column
+    tbody
+      display: -webkit-flex
+      display: -ms-flex
+      display: flex
+      tr
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        -webkit-flex-direction: column
+        -ms-flex-direction: column
+        flex-direction: column
 </style>
