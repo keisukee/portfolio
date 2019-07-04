@@ -19,7 +19,8 @@
               </h3>
               <p>
                 Rails×スクレイピングで、海外の大手サイトからエロ動画を収集してくるサイトを作りました。<br>
-                リンクからは本当にエロサイトに飛ぶのでご注意ください。
+                リンクからは本当にエロサイトに飛ぶのでご注意を。
+                <a href="https://qiita.com/sukebeeeee/items/48b3348d011d4c2b256d">リリース記事</a>
               </p>
             </div>
             <nav class="level is-mobile">
@@ -47,32 +48,33 @@
 </script>
 
 <style lang="sass">
-  .works_container
-    width: 600px
-    padding-top: 20px
-    margin: 0 auto
-    h2
-      font-size: 30px
-      font-weight: bold
-      margin-bottom: 10px
-    ul
-      li
-        .box
-          article
-            .media-left
-              figure
-                img
-                  width: auto
-                  height: 150px
-            .media-content
-              .content
-                p
-              nav
-                ul
-                  display: -webkit-flex
-                  display: -ms-flex
-                  display: flex
-                  li
-                    margin-right: 10px
+  @media (min-width: 769px)
+    .works_container
+      width: 600px
+      padding: 60px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      ul
+        li
+          .box
+            article
+              .media-left
+                figure
+                  img
+                    width: auto
+                    height: 150px
+              .media-content
+                .content
+                  p
+                nav
+                  ul
+                    display: -webkit-flex
+                    display: -ms-flex
+                    display: flex
+                    li
+                      margin-right: 10px
 
 </style>

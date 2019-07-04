@@ -22,54 +22,55 @@
 </script>
 
 <style lang="sass">
-  .experience_container
-    width: 600px
-    padding-top: 20px
-    margin: 0 auto
-    h2
-      font-size: 30px
-      font-weight: bold
-      margin-bottom: 10px
-    .description
-      margin: 0 auto 20px
-      p
-        text-align: left
-    table
-      display: -webkit-flex
-      display: -ms-flex
-      display: flex
-      padding: 30px 0 0 100px
-      thead
+  @media (min-width: 769px)
+    .experience_container
+      width: 600px
+      padding: 40px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      .description
+        margin: 0 auto 20px
+        p
+          text-align: left
+      table
         display: -webkit-flex
         display: -ms-flex
         display: flex
-        -webkit-flex-direction: column
-        -ms-flex-direction: column
-        flex-direction: column
-        margin-right: 20px
-        tr
+        padding: 30px 0 0 100px
+        thead
           display: -webkit-flex
           display: -ms-flex
           display: flex
           -webkit-flex-direction: column
           -ms-flex-direction: column
           flex-direction: column
-          th
-            font-size: 20px
-            margin: 5px 0
-      tbody
-        display: -webkit-flex
-        display: -ms-flex
-        display: flex
-        tr
+          margin-right: 20px
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            th
+              font-size: 20px
+              margin: 5px 0
+        tbody
           display: -webkit-flex
           display: -ms-flex
           display: flex
-          -webkit-flex-direction: column
-          -ms-flex-direction: column
-          flex-direction: column
-          td
-            font-size: 20px
-            font-weight: bold
-            margin: 5px 0
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            td
+              font-size: 20px
+              font-weight: bold
+              margin: 5px 0
 </style>

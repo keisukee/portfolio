@@ -14,8 +14,10 @@
 </script>
 
 <style lang="sass">
-  article
-    div
-      p
-        font-weight: bold
+  @media (min-width: 769px)
+    article
+      div
+        p
+          font-size: 20px
+          font-weight: bold
 </style>

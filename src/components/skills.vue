@@ -166,35 +166,36 @@
 </script>
 
 <style lang="sass">
-  .skills_container
-    width: 600px
-    padding-top: 20px
-    margin: 0 auto
-    h2
-      font-size: 30px
-      font-weight: bold
-      margin-bottom: 10px
-    .cards_container
-      display: -webkit-flex
-      display: -ms-flex
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-      .skills_card
-        padding-bottom: 25px
-        .card
-          width: 180px
-          height: 180px
-          .card-content
-            padding: 0
-            margin: 0
-            .content
+  @media (min-width: 769px)
+    .skills_container
+      width: 600px
+      padding: 40px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      .cards_container
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        .skills_card
+          padding-bottom: 25px
+          .card
+            width: 180px
+            height: 180px
+            .card-content
               padding: 0
               margin: 0
-              ul
-                padding: 10px 0 0 0
+              .content
+                padding: 0
                 margin: 0
-                li
-                  list-style: none
+                ul
+                  padding: 10px 0 0 0
+                  margin: 0
+                  li
+                    list-style: none
 
 </style>
