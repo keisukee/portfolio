@@ -73,4 +73,55 @@
               font-size: 20px
               font-weight: bold
               margin: 5px 0
+  @media (max-width: 768px)
+    .experience_container
+      width: 320px
+      padding: 20px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      .description
+        margin: 0 auto 20px
+        p
+          text-align: left
+      table
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        padding: 30px 0 0 20px
+        thead
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          -webkit-flex-direction: column
+          -ms-flex-direction: column
+          flex-direction: column
+          margin-right: 20px
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            th
+              font-size: 20px
+              margin: 5px 0
+        tbody
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            td
+              font-size: 20px
+              font-weight: bold
+              margin: 5px 0
 </style>

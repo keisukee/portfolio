@@ -9,7 +9,7 @@
           <a href="#experiences">Experiences</a>
         </li>
         <li>
-          <a href="#works">Wroks</a>
+          <a href="#works">Works</a>
         </li>
         <li>
           <a href="#skills">Skills</a>
@@ -103,6 +103,47 @@
       h1
         color: #FFF
         font-size: 70px
+        font-weight: bold
+        padding-top: 150px
+        margin-right: auto
+  @media (max-width: 768px)
+    .background
+      width: 100vw
+      height: 60vh
+      background-color: #0FD1B2
+      nav
+        background-color: #0FD1B2
+        opacity: 0.85
+        position: fixed
+        z-index: 9999
+        ul
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          flex-wrap: wrap
+          justify-content: space-between
+          margin: 0 auto
+          li
+            padding: 5px
+            width: 30vw
+            a
+              font-size: 18px
+              font-weight: bold
+              color: #FFF
+            .dropdown
+              button
+                background-color: #0FD1B2
+                border: none
+                .icon
+                  i
+                    color: #FFF
+              .dropdown-trigger
+                .dropdown-text
+                  color: #FFF
+              .dropdown-menu
+      h1
+        color: #FFF
+        font-size: 40px
         font-weight: bold
         padding-top: 150px
         margin-right: auto

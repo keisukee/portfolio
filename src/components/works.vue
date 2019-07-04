@@ -76,5 +76,37 @@
                     display: flex
                     li
                       margin-right: 10px
+  @media (max-width: 768px)
+    .works_container
+      width: 320px
+      padding: 30px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      ul
+        li
+          .box
+            article
+              .media-left
+                figure
+                  img
+                    width: auto
+                    height: 150px
+              .media-content
+                .content
+                  h3
+                    font-size: 20px
+                  p
+                    font-size: 16px
+                nav
+                  ul
+                    display: -webkit-flex
+                    display: -ms-flex
+                    display: flex
+                    flex-direction: column
+                    li
+                      margin-right: 10px
 
 </style>

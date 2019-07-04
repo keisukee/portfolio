@@ -197,5 +197,41 @@
                   margin: 0
                   li
                     list-style: none
+  @media (max-width: 768px)
+    .skills_container
+      width: 320px
+      padding: 20px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      .cards_container
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        .skills_card
+          padding-bottom: 25px
+          .card
+            width: 150px
+            height: 200px
+            .card-header
+              p
+                font-size: 15px
+                padding: 8px 5px
+            .card-content
+              padding: 0
+              margin: 0
+              .content
+                padding: 0
+                margin: 0
+                ul
+                  padding: 10px 0 0 0
+                  margin: 0
+                  li
+                    font-size: 15px
+                    list-style: none
 
 </style>

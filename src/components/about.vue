@@ -98,4 +98,56 @@
             flex-direction: column
             td
               margin: 5px 0
+  @media (max-width: 768px)
+    .about_container
+      width: 340px
+      padding: 30px 0
+      margin: 0 auto
+      h2
+        font-size: 30px
+        font-weight: bold
+        margin-bottom: 10px
+      .description
+        margin: 0 auto 20px
+        p
+          text-align: left
+      table
+        display: -webkit-flex
+        display: -ms-flex
+        display: flex
+        padding-top: 30px
+        thead
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          -webkit-flex-direction: column
+          -ms-flex-direction: column
+          flex-direction: column
+          margin-right: 15px
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            th
+              font-size: 15px
+              margin: 10px 0
+        tbody
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          tr
+            display: -webkit-flex
+            display: -ms-flex
+            display: flex
+            align-items: stretch
+            -webkit-flex-direction: column
+            -ms-flex-direction: column
+            flex-direction: column
+            td
+              font-size: 15px
+              margin: 10px 0
+
 </style>

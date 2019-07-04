@@ -20,4 +20,10 @@
         p
           font-size: 20px
           font-weight: bold
+  @media (max-width: 768px)
+    article
+      div
+        p
+          font-size: 20px
+          font-weight: bold
 </style>
