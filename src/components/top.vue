@@ -3,25 +3,57 @@
     <nav>
       <ul>
         <li>
-          <router-link to="/about">About</router-link><br>
+          <a href="#about">About</a>
         </li>
         <li>
-          <router-link to="/experiences">Experiences</router-link><br>
+          <a href="#experiences">Experiences</a>
         </li>
         <li>
-          <router-link to="/works">Works</router-link><br>
+          <a href="#works">Wroks</a>
         </li>
         <li>
-          <router-link to="/skills">Skills</router-link><br>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <router-link to="/sns">SNS</router-link><br>
+          <a href="#contact">Contact</a>
         </li>
+
         <li>
-          <router-link to="/contact">Contact</router-link>
+          <div class="dropdown is-active">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span class="dropdown-text">Accounts</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="https://github.com/keisukee" class="dropdown-item" target="_blank">
+                  Github
+                </a>
+                <hr class="dropdown-divider">
+                <a href="https://qiita.com/sukebeeeee" class="dropdown-item" target="_blank">
+                  Qiita
+                </a>
+                <hr class="dropdown-divider">
+                <a href="https://twitter.com/sukebeeeeei" class="dropdown-item" target="_blank">
+                  Twitter
+                </a>
+                <hr class="dropdown-divider">
+                <a href="https://www.wantedly.com/users/67034394" class="dropdown-item" target="_blank">
+                  Wantedly
+                </a>
+
+              </div>
+            </div>
+          </div>
         </li>
+
       </ul>
     </nav>
+
     <h1>Welcome to My Portfolio</h1>
 
   </div>
@@ -33,9 +65,14 @@
 <style lang="sass">
   .background
     width: 100vw
-    height: 100vh
+    height: 60vh
     background-color: #0FD1B2
     nav
+      width: 100vw
+      background-color: #0FD1B2
+      opacity: 0.9
+      position: fixed
+      z-index: 9999
       ul
         display: -webkit-flex
         display: -ms-flex
@@ -49,6 +86,17 @@
             font-size: 20px
             font-weight: bold
             color: #FFF
+          .dropdown
+            button
+              background-color: #0FD1B2
+              border: none
+              .icon
+                i
+                  color: #FFF
+            .dropdown-trigger
+              .dropdown-text
+                color: #FFF
+            .dropdown-menu
     h1
       color: #FFF
       font-size: 50px

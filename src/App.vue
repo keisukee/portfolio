@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <top></top>
-    <router-view/>
+    <about id="about"></about>
+    <experiences id="experiences"></experiences>
+    <works id="works"></works>
+    <skills id="skills"></skills>
+    <contact id="contact"></contact>
   </div>
 </template>
 
@@ -11,7 +15,6 @@ import about from './components/about.vue'
 import experiences from './components/experiences.vue'
 import works from './components/works.vue'
 import skills from './components/skills.vue'
-import sns from './components/sns.vue'
 import contact from './components/contact.vue'
 
 export default {
@@ -22,7 +25,6 @@ export default {
     experiences,
     works,
     skills,
-    sns,
     contact
   }
 }
