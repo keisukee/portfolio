@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="about_container">
     <h2>About me</h2>
     <div class="description">
       <p>大橋 啓介と申します。
@@ -50,7 +50,7 @@
 </script>
 
 <style lang="sass">
-  .container
+  .about_container
     width: 600px
     padding-top: 20px
     h2
