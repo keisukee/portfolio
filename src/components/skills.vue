@@ -27,9 +27,9 @@
             <div class="content">
               <ul>
                 <li>Slim, Haml</li>
+                <li>BEM</li>
                 <li>Sass, Scss</li>
                 <li>Bootstrap, Bulma</li>
-                <li>BEM</li>
               </ul>
             </div>
           </div>

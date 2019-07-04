@@ -28,17 +28,17 @@
           <td>早稲田大学 基幹理工学部 情報工学科</td>
           <td>1998年9月17日</td>
           <td>
-            <a href="https://github.com/keisukee">https://github.com/keisukee</a>
+            <a href="https://github.com/keisukee" target="_blank">https://github.com/keisukee</a>
           </td>
           <td>
-            <a href="https://twitter.com/sukebeeeeei">@sukebeeeeei</a>
+            <a href="https://twitter.com/sukebeeeeei" target="_blank">@sukebeeeeei</a>
           </td>
           <td>
-            <a href="https://qiita.com/sukebeeeee">https://qiita.com/sukebeeeee</a>
+            <a href="https://qiita.com/sukebeeeee" target="_blank">https://qiita.com/sukebeeeee</a>
           </td>
           <td>kog71903[at]gmail.com</td>
           <td>
-            <a href="https://www.wantedly.com/users/67034394">Wantedly</a>
+            <a href="https://www.wantedly.com/users/67034394" target="_blank">Wantedly</a>
           </td>
         </tr>
       </tbody>
