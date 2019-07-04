@@ -19,7 +19,9 @@
         </li>
 
         <li>
-          <div class="dropdown is-active">
+          <!-- <div class="dropdown is-active"> -->
+          <!-- TODO dropdownがうまく作動しないので後で直す -->
+          <div class="dropdown">
             <div class="dropdown-trigger">
               <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
                 <span class="dropdown-text">Accounts</span>
@@ -63,47 +65,45 @@
 </script>
 
 <style lang="sass">
-  .background
-    width: 100vw
-    height: 60vh
-    background-color: #0FD1B2
-    nav
+  @media (min-width: 769px)
+    .background
       width: 100vw
+      height: 60vh
       background-color: #0FD1B2
-      opacity: 0.9
-      position: fixed
-      z-index: 9999
-      ul
-        display: -webkit-flex
-        display: -ms-flex
-        display: flex
-        justify-content: space-between
-        width: 600px
-        margin: 0 auto
-        li
-          padding: 10px
-          a
-            font-size: 20px
-            font-weight: bold
-            color: #FFF
-          .dropdown
-            button
-              background-color: #0FD1B2
-              border: none
-              .icon
-                i
+      nav
+        width: 100vw
+        background-color: #0FD1B2
+        opacity: 0.9
+        position: fixed
+        z-index: 9999
+        ul
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          justify-content: space-between
+          width: 600px
+          margin: 0 auto
+          li
+            padding: 10px
+            a
+              font-size: 20px
+              font-weight: bold
+              color: #FFF
+            .dropdown
+              button
+                background-color: #0FD1B2
+                border: none
+                .icon
+                  i
+                    color: #FFF
+              .dropdown-trigger
+                .dropdown-text
                   color: #FFF
-            .dropdown-trigger
-              .dropdown-text
-                color: #FFF
-            .dropdown-menu
-    h1
-      color: #FFF
-      font-size: 50px
-      font-weight: bold
-      padding-top: 50px
-      margin-right: auto
-
-
-
+              .dropdown-menu
+      h1
+        color: #FFF
+        font-size: 70px
+        font-weight: bold
+        padding-top: 150px
+        margin-right: auto
 </style>
