@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <h1>about me</h1>
+  <div class="container">
+    <h2>About me</h2>
     <div class="description">
       <p>大橋 啓介と申します。
-        早稲田大学情報理工学部の学生をしており。<br>
-        普段はRubyOnRailsを用いた開発や、サッカー、筋トレ、マンガ、海外ドラマなど様々な活動に打ち込んでいます。<br>
+        現在は早稲田大学情報理工学部の学生。<br>
+        RubyOnRailsを用いた開発や、サッカー、筋トレ、マンガ、海外ドラマなど様々な活動に打ち込んでいます。<br>
         浪人していた頃に多読にハマり、受験勉強をほっぽりだして洋書を読みふけったおかげで英語が得意に。海外ドラマや洋画にもハマる。TOEICは925点、TOEFL iBTは93点。<br>
         個人の活動としてエロサイトなどを開発。<br>
       </p>
@@ -50,38 +50,50 @@
 </script>
 
 <style lang="sass">
-  .description
+  .container
     width: 600px
-    margin: 0 auto
-    p
-      text-align: left
-  table
-    display: -webkit-flex
-    display: -ms-flex
-    display: flex
-    thead
+    padding-top: 20px
+    h2
+      font-size: 30px
+      font-weight: bold
+      margin-bottom: 10px
+    .description
+      margin: 0 auto 20px
+      p
+        text-align: left
+    table
       display: -webkit-flex
       display: -ms-flex
       display: flex
-      -webkit-flex-direction: column
-      -ms-flex-direction: column
-      flex-direction: column
-      tr
+      padding-top: 30px
+      thead
         display: -webkit-flex
         display: -ms-flex
         display: flex
         -webkit-flex-direction: column
         -ms-flex-direction: column
         flex-direction: column
-    tbody
-      display: -webkit-flex
-      display: -ms-flex
-      display: flex
-      tr
+        margin-right: 20px
+        tr
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          -webkit-flex-direction: column
+          -ms-flex-direction: column
+          flex-direction: column
+          th
+            margin: 5px 0
+      tbody
         display: -webkit-flex
         display: -ms-flex
         display: flex
-        -webkit-flex-direction: column
-        -ms-flex-direction: column
-        flex-direction: column
+        tr
+          display: -webkit-flex
+          display: -ms-flex
+          display: flex
+          -webkit-flex-direction: column
+          -ms-flex-direction: column
+          flex-direction: column
+          td
+            margin: 5px 0
 </style>
