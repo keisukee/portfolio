@@ -2,7 +2,8 @@
   <div class="works_container">
     <h2>Works</h2>
     <ul>
-      <li>
+
+      <li class="work">
         <div class="box">
         <article class="media">
           <div class="media-left">
@@ -40,6 +41,41 @@
       </div>
       </li>
 
+      <li class="work">
+        <div class="box">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image">
+              <a href="https://keisuke-ohashi.firebaseapp.com/">
+                <img src="../assets/portfolio.png" alt="Portfolio">
+              </a>
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <h3>
+                <a href="https://keisuke-ohashi.firebaseapp.com/">MyPortfolio</a>
+              </h3>
+              <p>
+                Vue.jsでポートフォリオサイトを制作しました。<br>
+                今の所、Vue.jsらしさが全く出せてないですが、それは今後の課題ということでw
+              </p>
+            </div>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <ul>
+                  <li><small>Vue.js</small></li>
+                  <li><small>Bulma</small></li>
+                  <li><small>Firebase</small></li>
+                </ul>
+                <br>
+              </div>
+            </nav>
+          </div>
+        </article>
+      </div>
+      </li>
+
     </ul>
   </div>
 </template>
@@ -58,7 +94,8 @@
         font-weight: bold
         margin-bottom: 10px
       ul
-        li
+        .work
+          margin-bottom: 20px
           .box
             article
               .media-left
@@ -86,7 +123,8 @@
         font-weight: bold
         margin-bottom: 10px
       ul
-        li
+        .work
+          margin-bottom: 15px
           .box
             article
               .media-left
