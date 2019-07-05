@@ -12,9 +12,15 @@ localhostでチェック
 firebase serve
 ```
 デプロイ
+
+```
+npm run build
+```
+でビルドしてから、
 ```
 firebase deploy
 ```
+でOK
 
 ## Build Setup
 
