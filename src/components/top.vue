@@ -19,9 +19,7 @@
         </li>
 
         <li>
-          <!-- <div class="dropdown is-active"> -->
-          <!-- TODO dropdownがうまく作動しないので後で直す -->
-          <div class="dropdown">
+          <div class="dropdown" v-bind:class="{ 'is-active': menuActive }" v-on:click="menuToggle()">
             <div class="dropdown-trigger">
               <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
                 <span class="dropdown-text">Accounts</span>
@@ -51,6 +49,7 @@
               </div>
             </div>
           </div>
+
         </li>
 
       </ul>
@@ -62,6 +61,19 @@
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      menuActive: false
+    }
+  },
+  methods: {
+    menuToggle () {
+      this.menuActive = !this.menuActive
+    }
+  }
+}
+
 </script>
 
 <style lang="sass">
@@ -84,6 +96,7 @@
           width: 600px
           margin: 0 auto
           li
+            line-height: 36px
             padding: 10px
             a
               font-size: 20px
@@ -99,7 +112,12 @@
               .dropdown-trigger
                 .dropdown-text
                   color: #FFF
+                  font-size: 18px
+                  font-weight: bold
               .dropdown-menu
+                .dropdown-content
+                  a
+                    color: #000
       h1
         color: #FFF
         font-size: 70px
@@ -124,8 +142,9 @@
           justify-content: space-between
           margin: 0 auto
           li
-            padding: 5px
             width: 30vw
+            padding: 5px
+            line-height: 36px
             a
               font-size: 18px
               font-weight: bold
@@ -140,7 +159,12 @@
               .dropdown-trigger
                 .dropdown-text
                   color: #FFF
+                  font-size: 18px
+                  font-weight: bold
               .dropdown-menu
+                .dropdown-content
+                  a
+                    color: #000
       h1
         color: #FFF
         font-size: 40px
