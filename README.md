@@ -1,6 +1,10 @@
 # portfolio
 
-> A Vue.js project
+Vue.jsにて作成。firebaseでhosting。
+
+## サイトURL
+
+[URLはこちら](https://keisuke-ohashi.firebaseapp.com/#/)
 
 ## Build Setup
 
