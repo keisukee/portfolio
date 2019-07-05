@@ -6,6 +6,16 @@ Vue.jsにて作成。firebaseでhosting。
 
 [URLはこちら](https://keisuke-ohashi.firebaseapp.com/#/)
 
+## deploy
+localhostでチェック
+```
+firebase serve
+```
+デプロイ
+```
+firebase deploy
+```
+
 ## Build Setup
 
 ``` bash
