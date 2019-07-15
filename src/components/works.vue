@@ -22,6 +22,7 @@
                 Rails×スクレイピングで、海外の大手サイトからエロ動画を収集してくるサイトを作りました。<br>
                 リンクからは本当にエロサイトに飛ぶのでご注意を。
                 <a href="https://qiita.com/sukebeeeee/items/48b3348d011d4c2b256d">リリース記事</a>
+                <a href="https://github.com/keisukee/Nukistagram">コードはこちら</a>
               </p>
             </div>
             <nav class="level is-mobile">
@@ -59,6 +60,7 @@
               <p>
                 Vue.jsでポートフォリオサイトを制作しました。<br>
                 今の所、Vue.jsらしさが全く出せてないですが、それは今後の課題ということでw
+                <a href="https://github.com/keisukee/portfolio">コードはこちら</a>
               </p>
             </div>
             <nav class="level is-mobile">
